@@ -1,0 +1,72 @@
+﻿<Page x:Class="odkrywca.Pages.Map"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:odkrywca.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="675" d:DesignWidth="1200"
+      WindowTitle="Map"
+      Background="White"
+      FontFamily="Comfortaa" >
+    <Page.Resources>
+        <Style TargetType="Label">
+            <Setter Property="Margin" Value="5, 8" />
+            <Setter Property="HorizontalContentAlignment" Value="Center" />
+            <Setter Property="FontSize" Value="25" />
+        </Style>
+        <Style TargetType="Hyperlink">
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="TextDecorations" Value="None" />
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" FontWeight="Bold" Padding="12, 20">
+            <Hyperlink NavigateUri="../MainWindow.xaml">&lt;&lt; Powrót do menu</Hyperlink>
+        </Label>
+
+        <StackPanel Grid.Row="1" Grid.RowSpan="4" Orientation="Vertical">
+            <Label Content="Kontynenty" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold" BorderBrush="Black" />
+            <Label>
+                <Hyperlink >Afryka</Hyperlink>
+            </Label>
+            <Label>
+                <Hyperlink >Ameryka Płd.</Hyperlink>
+            </Label>
+            <Label>
+                <Hyperlink >Ameryka Płn.</Hyperlink>
+            </Label>
+            <Label>
+                <Hyperlink >Antarktyda</Hyperlink>
+            </Label>
+            <Label>
+                <Hyperlink >Australia</Hyperlink>
+            </Label>
+            <Label>
+                <Hyperlink >Azja</Hyperlink>
+            </Label>
+            <Label>
+                <Hyperlink >Europa</Hyperlink>
+            </Label>
+        </StackPanel>
+    </Grid>
+</Page>
