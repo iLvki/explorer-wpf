@@ -14,15 +14,16 @@
             <Setter Property="Margin" Value="5, 8" />
             <Setter Property="HorizontalContentAlignment" Value="Center" />
             <Setter Property="FontSize" Value="25" />
+            <Setter Property="Opacity"  Value="100"/>
         </Style>
         <Style TargetType="Hyperlink">
             <Setter Property="FontWeight" Value="Bold" />
-            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="Foreground" Value="White" />
             <Setter Property="TextDecorations" Value="None" />
         </Style>
     </Page.Resources>
 
-    <Grid>
+    <Grid Background="Black">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
@@ -40,33 +41,49 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <Label Grid.Row="0" Grid.Column="0" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" FontWeight="Bold" Padding="12, 20">
+        <Label Grid.Row="0" Grid.Column="0" FontSize="20" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" FontWeight="Bold" Padding="12, 20" Opacity="0.8">
             <Hyperlink NavigateUri="../MainWindow.xaml">&lt;&lt; Powrót do menu</Hyperlink>
         </Label>
 
-        <StackPanel Grid.Row="1" Grid.RowSpan="4" Orientation="Vertical">
-            <Label Content="Kontynenty" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold" BorderBrush="Black" />
-            <Label>
-                <Hyperlink >Afryka</Hyperlink>
-            </Label>
-            <Label>
-                <Hyperlink >Ameryka Płd.</Hyperlink>
-            </Label>
-            <Label>
-                <Hyperlink >Ameryka Płn.</Hyperlink>
-            </Label>
-            <Label>
-                <Hyperlink >Antarktyda</Hyperlink>
-            </Label>
-            <Label>
-                <Hyperlink >Australia</Hyperlink>
-            </Label>
-            <Label>
-                <Hyperlink >Azja</Hyperlink>
-            </Label>
-            <Label>
-                <Hyperlink >Europa</Hyperlink>
-            </Label>
-        </StackPanel>
+        <Border Grid.Row="1" Grid.RowSpan="4" CornerRadius="5" Margin="15" BorderBrush="Black" BorderThickness="1">
+            <Border.Background>
+                <SolidColorBrush Opacity="0.6" Color="LightBlue" />
+            </Border.Background>
+            <Border.Effect>
+                <DropShadowEffect/>
+            </Border.Effect>
+            <StackPanel Orientation="Vertical">
+                <Label Content="Kontynenty" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold" BorderBrush="White" />
+                <Label>
+                    <Hyperlink x:Name="africa" MouseEnter="changeImage" MouseLeave="BackToBaseImg">Afryka</Hyperlink>
+                </Label>
+                <Label>
+                    <Hyperlink x:Name="south_america" MouseEnter="changeImage" MouseLeave="BackToBaseImg" >Ameryka Płd.</Hyperlink>
+                </Label>
+                <Label>
+                    <Hyperlink x:Name="north_america" MouseEnter="changeImage" MouseLeave="BackToBaseImg" >Ameryka Płn.</Hyperlink>
+                </Label>
+                <Label>
+                    <Hyperlink x:Name="antarctica" MouseEnter="changeImage" MouseLeave="BackToBaseImg" >Antarktyda</Hyperlink>
+                </Label>
+                <Label>
+                    <Hyperlink x:Name="australia" MouseEnter="changeImage" MouseLeave="BackToBaseImg" >Australia</Hyperlink>
+                </Label>
+                <Label>
+                    <Hyperlink x:Name="asia" MouseEnter="changeImage" MouseLeave="BackToBaseImg" >Azja</Hyperlink>
+                </Label>
+                <Label>
+                    <Hyperlink x:Name="europe" MouseEnter="changeImage" MouseLeave="BackToBaseImg" >Europa</Hyperlink>
+                </Label>
+            </StackPanel>
+        </Border>
+
+        <Border Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="5" Grid.RowSpan="6" Margin="20" CornerRadius="5" Padding="5, 30">
+            <Canvas x:Name="map">
+                <Canvas.Background>
+                    <ImageBrush ImageSource="/Assets/continents.png" />
+                </Canvas.Background>
+            </Canvas>
+        </Border>
     </Grid>
 </Page>

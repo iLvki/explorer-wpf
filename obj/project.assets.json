@@ -8,23 +8,23 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\lpason\\.nuget\\packages\\": {},
+    "C:\\Users\\morel\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lpason\\Downloads\\odkrywca\\odkrywca\\odkrywca\\odkrywca.csproj",
+      "projectUniqueName": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\odkrywca.csproj",
       "projectName": "odkrywca",
-      "projectPath": "C:\\Users\\lpason\\Downloads\\odkrywca\\odkrywca\\odkrywca\\odkrywca.csproj",
-      "packagesPath": "C:\\Users\\lpason\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lpason\\Downloads\\odkrywca\\odkrywca\\odkrywca\\obj\\",
+      "projectPath": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\odkrywca.csproj",
+      "packagesPath": "C:\\Users\\morel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\lpason\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\morel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -51,7 +51,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -75,7 +76,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -9,8 +9,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Assets\" />
+    <None Remove="Assets\background.png" />
+    <None Remove="Assets\continents.png" />
+    <None Remove="background.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Classes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\background.png" />
+    <Resource Include="Assets\continents.png" />
+    <Resource Include="background.png" />
   </ItemGroup>
 
 </Project>
