@@ -37,7 +37,12 @@
             FontSize="20"
             FontWeight="Bold"
             Opacity="0.8">
-            <Hyperlink Foreground="Black" NavigateUri="Map.xaml">&lt;&lt; Powrót do mapy</Hyperlink>
+            <Hyperlink
+                Click="Stop"
+                Foreground="Black"
+                NavigateUri="Map.xaml">
+                &lt;&lt; Powrót do mapy
+            </Hyperlink>
         </Label>
 
         <Label
@@ -62,6 +67,15 @@
             TextWrapping="Wrap" />
 
         <Label
+            x:Name="imgInfo"
+            Grid.Row="3"
+            Grid.ColumnSpan="2"
+            Margin="25,0,0,0"
+            VerticalContentAlignment="Top"
+            Content="test"
+            FontSize="18" />
+
+        <Label
             x:Name="musicInfo"
             Grid.Row="3"
             Grid.ColumnSpan="2"
@@ -82,6 +96,7 @@
             Content="&lt;&lt; Poprzednia strona"
             Cursor="Hand"
             FontSize="22"
+            FontWeight="Bold"
             Foreground="Black" />
 
         <Button
@@ -90,6 +105,7 @@
             Content="Następna strona &gt;&gt;"
             Cursor="Hand"
             FontSize="22"
+            FontWeight="Bold"
             Foreground="Black" />
     </Grid>
 </Page>

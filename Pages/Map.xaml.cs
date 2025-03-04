@@ -20,7 +20,7 @@ namespace odkrywca.Pages
         {
             string continent = (sender as Hyperlink).Name;
 
-            Uri imgUri = new Uri($"Assets/Hovers/{continent}-h.png", UriKind.Relative);
+            Uri imgUri = new Uri($"pack://application:,,,/Assets/Hovers/{continent}-h.png");
 
             map.Background = new ImageBrush
             {
@@ -32,7 +32,7 @@ namespace odkrywca.Pages
         {
             map.Background = new ImageBrush
             {
-                ImageSource = new BitmapImage(new Uri($"Assets/continents.png", UriKind.Relative))
+                ImageSource = new BitmapImage(new Uri($"pack://application:,,,/Assets/continents.png"))
             };
         }
 

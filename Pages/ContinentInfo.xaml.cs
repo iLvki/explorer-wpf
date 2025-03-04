@@ -1,5 +1,6 @@
 ﻿using odkrywca.Classes;
 using System.IO;
+using System.Media;
 using System.Text.Json;
 using System.Windows;
 using System.Windows.Controls;
@@ -23,7 +24,7 @@ namespace odkrywca.Pages
      
         public string continentName { get; set; }
         private Continent informations = new Continent();
-        private MediaPlayer mp { get; set; }
+        private SoundPlayer mp { get; set; }
 
         public void ReadInfo()
         {
@@ -38,6 +39,7 @@ namespace odkrywca.Pages
 
             this.WindowTitle = informations.name;
             title.Content = informations.name;
+            imgInfo.Content = informations.imageInfo;
             info.Text = informations.info;
             uri = new Uri($"pack://application:,,,/Assets/Continents/{continentName}/{informations.name.ToLower()}.jpg", UriKind.Absolute);
             continentImg.Background = new ImageBrush
@@ -50,12 +52,18 @@ namespace odkrywca.Pages
 
         private void PlayMusic()
         {
-            mp = new MediaPlayer();
-            var uri = new Uri($"pack://application:,,,/Assets/Continents/{continentName}/{informations.music}.wav");
-            string[] musicDetails = informations.music.Split('_');
-            mp.Open(uri);
+            Uri uri = new Uri($"pack://application:,,,/Assets/Continents/{continentName}/{informations.music}.wav", UriKind.Absolute);
+            StreamResourceInfo resourceInfo = Application.GetResourceStream(uri);
+            mp = new SoundPlayer(resourceInfo.Stream);
+            mp.Load();
             mp.Play();
+            string[] musicDetails = informations.music.Split('_');
             musicInfo.Content = $"Muzyka w tle: {musicDetails[0]} - {musicDetails[1]}";
+        }
+
+        private void Stop(object sender, RoutedEventArgs e)
+        {
+            mp.Stop();
         }
     }
 }

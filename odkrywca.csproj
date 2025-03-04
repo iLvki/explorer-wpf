@@ -22,6 +22,7 @@
     <None Remove="Assets\Continents\europe\data.json" />
     <None Remove="Assets\Continents\north_america\data.json" />
     <None Remove="Assets\Continents\south_america\data.json" />
+    <None Remove="Assets\globe.ico" />
     <None Remove="Assets\Hovers\africa-h.png" />
     <None Remove="Assets\Hovers\antarctica-h.png" />
     <None Remove="Assets\Hovers\asia-h.png" />
@@ -51,6 +52,7 @@
     <Resource Include="Assets\Continents\europe\data.json" />
     <Resource Include="Assets\Continents\north_america\data.json" />
     <Resource Include="Assets\Continents\south_america\data.json" />
+    <Resource Include="Assets\globe.ico" />
     <Resource Include="Assets\Hovers\africa-h.png" />
     <Resource Include="Assets\Hovers\antarctica-h.png" />
     <Resource Include="Assets\Hovers\asia-h.png" />

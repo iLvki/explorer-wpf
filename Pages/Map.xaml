@@ -13,7 +13,7 @@
     mc:Ignorable="d">
     <Page.Resources>
         <Style TargetType="Label">
-            <Setter Property="Margin" Value="5,8" />
+            <Setter Property="Margin" Value="5,18" />
             <Setter Property="HorizontalContentAlignment" Value="Center" />
             <Setter Property="FontSize" Value="25" />
             <Setter Property="Opacity" Value="100" />
@@ -25,7 +25,15 @@
         </Style>
     </Page.Resources>
 
-    <Grid Background="Black">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="0.5,1">
+                <GradientStop Offset="0" Color="#FF34882D" />
+                <GradientStop Offset="1" Color="#FF569ECC" />
+                <GradientStop Offset="0.333" Color="#FF479488" />
+                <GradientStop Offset="0.731" Color="#FF7B9447" />
+            </LinearGradientBrush>
+        </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
@@ -43,17 +51,28 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <Label
+        <Border
             Grid.Row="0"
             Grid.Column="0"
-            Padding="12,20"
-            HorizontalContentAlignment="Left"
-            VerticalContentAlignment="Top"
-            FontSize="20"
-            FontWeight="Bold"
-            Opacity="0.8">
-            <Hyperlink NavigateUri="../MainWindow.xaml">&lt;&lt; Powrót do menu</Hyperlink>
-        </Label>
+            Margin="15,40"
+            BorderBrush="Black"
+            BorderThickness="1"
+            CornerRadius="20">
+            <Border.Background>
+                <SolidColorBrush Opacity="0.5" Color="LightBlue" />
+            </Border.Background>
+            <Border.Effect>
+                <DropShadowEffect />
+            </Border.Effect>
+            <Label
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                FontSize="20"
+                FontWeight="Bold"
+                Opacity="0.8">
+                <Hyperlink NavigateUri="../MainWindow.xaml">&lt;&lt; Powrót do menu</Hyperlink>
+            </Label>
+        </Border>
 
         <Border
             Grid.Row="1"
@@ -61,9 +80,9 @@
             Margin="15"
             BorderBrush="Black"
             BorderThickness="1"
-            CornerRadius="5">
+            CornerRadius="20">
             <Border.Background>
-                <SolidColorBrush Opacity="0.6" Color="LightBlue" />
+                <SolidColorBrush Opacity="0.5" Color="LightBlue" />
             </Border.Background>
             <Border.Effect>
                 <DropShadowEffect />
@@ -77,7 +96,7 @@
                     Content="Kontynenty"
                     FontSize="30"
                     FontWeight="Bold"
-                    Foreground="Coral" />
+                    Foreground="Aqua" />
                 <Label>
                     <Hyperlink
                         x:Name="africa"
@@ -157,8 +176,7 @@
             Grid.Column="1"
             Grid.ColumnSpan="5"
             Margin="20"
-            Padding="0,50"
-            CornerRadius="5">
+            Padding="0,50">
             <Canvas x:Name="map">
                 <Canvas.Background>
                     <ImageBrush ImageSource="/Assets/continents.png" />
