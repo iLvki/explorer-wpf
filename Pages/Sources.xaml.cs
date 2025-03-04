@@ -1,17 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using odkrywca.Classes;
+using System.IO;
+using System.Text.Json;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using System.Windows.Resources;
 
 namespace odkrywca.Pages
 {
@@ -23,6 +15,27 @@ namespace odkrywca.Pages
         public Sources()
         {
             InitializeComponent();
+            ReadSources();
+        }
+
+
+        public void ReadSources()
+        {
+            res.Text = string.Empty;
+            List<Source> sources = new List<Source>();
+
+            var uri = new Uri("pack://application:,,,/Assets/sources.json");
+            StreamResourceInfo resourceInfo = Application.GetResourceStream(uri);
+            using (StreamReader reader = new StreamReader(resourceInfo.Stream))
+            {
+                string json = reader.ReadToEnd();
+                sources = JsonSerializer.Deserialize<List<Source>>(json);
+            }
+
+            foreach (Source s in sources)
+            {
+                res.Text += $" > {s.title}: {s.link}";
+            }
         }
     }
 }
