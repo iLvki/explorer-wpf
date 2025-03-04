@@ -13,11 +13,6 @@ namespace odkrywca
             InitializeComponent();
         }
 
-        private void mapBtn_Click(object sender, RoutedEventArgs e)
-        {
-            //NavigationService.Navigate(new Uri("/Pages/Map.xaml", UriKind.Relative));
-        }
-
         private void closeBtn_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();

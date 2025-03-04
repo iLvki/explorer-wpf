@@ -1,54 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lpason\\Documents\\GitHub\\explorer-wpf\\",
+  "WorkspaceRootPath": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|c:\\users\\lpason\\documents\\github\\explorer-wpf\\pages\\continentinfo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|solutionrelative:pages\\continentinfo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|c:\\users\\lpason\\documents\\github\\explorer-wpf\\pages\\continentinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|solutionrelative:pages\\continentinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|c:\\users\\lpason\\documents\\github\\explorer-wpf\\pages\\map.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|solutionrelative:pages\\map.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|c:\\users\\lpason\\documents\\github\\explorer-wpf\\pages\\map.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|solutionrelative:pages\\map.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|c:\\users\\lpason\\documents\\github\\explorer-wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|c:\\users\\morel\\documents\\github\\explorer-wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|c:\\users\\lpason\\documents\\github\\explorer-wpf\\classes\\continent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|solutionrelative:classes\\continent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|c:\\users\\lpason\\documents\\github\\explorer-wpf\\classes\\source.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|c:\\users\\morel\\documents\\github\\explorer-wpf\\classes\\source.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|solutionrelative:classes\\source.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|c:\\users\\lpason\\documents\\github\\explorer-wpf\\pages\\sources.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|solutionrelative:pages\\sources.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|c:\\users\\morel\\documents\\github\\explorer-wpf\\pages\\continentinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|solutionrelative:pages\\continentinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|c:\\users\\lpason\\documents\\github\\explorer-wpf\\pages\\sources.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|solutionrelative:pages\\sources.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|c:\\users\\morel\\documents\\github\\explorer-wpf\\pages\\continentinfo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|solutionrelative:pages\\continentinfo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|c:\\users\\lpason\\documents\\github\\explorer-wpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|c:\\users\\morel\\documents\\github\\explorer-wpf\\pages\\map.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|solutionrelative:pages\\map.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|c:\\users\\morel\\documents\\github\\explorer-wpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|c:\\users\\lpason\\documents\\github\\explorer-wpf\\assets\\sources.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|solutionrelative:assets\\sources.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|c:\\users\\morel\\documents\\github\\explorer-wpf\\pages\\sources.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|solutionrelative:pages\\sources.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|c:\\users\\lpason\\documents\\github\\explorer-wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|c:\\users\\morel\\documents\\github\\explorer-wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|c:\\users\\morel\\documents\\github\\explorer-wpf\\assets\\continents\\africa\\data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|solutionrelative:assets\\continents\\africa\\data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|c:\\users\\morel\\documents\\github\\explorer-wpf\\pages\\sources.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|solutionrelative:pages\\sources.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|c:\\users\\morel\\documents\\github\\explorer-wpf\\classes\\continent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|solutionrelative:classes\\continent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|c:\\users\\morel\\documents\\github\\explorer-wpf\\pages\\map.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|solutionrelative:pages\\map.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|c:\\users\\morel\\documents\\github\\explorer-wpf\\assets\\sources.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E27C83FE-B595-4D81-9C41-7AB0EF058B7A}|odkrywca.csproj|solutionrelative:assets\\sources.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,48 +62,54 @@
       "DocumentGroups": [
         {
           "DockedHeight": 329,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
+              "Title": "data.json",
+              "DocumentMoniker": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\Assets\\Continents\\africa\\data.json",
+              "RelativeDocumentMoniker": "Assets\\Continents\\africa\\data.json",
+              "ToolTip": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\Assets\\Continents\\africa\\data.json",
+              "RelativeToolTip": "Assets\\Continents\\africa\\data.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-04T17:22:43.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ContinentInfo.xaml",
-              "DocumentMoniker": "C:\\Users\\lpason\\Documents\\GitHub\\explorer-wpf\\Pages\\ContinentInfo.xaml",
+              "DocumentMoniker": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\Pages\\ContinentInfo.xaml",
               "RelativeDocumentMoniker": "Pages\\ContinentInfo.xaml",
-              "ToolTip": "C:\\Users\\lpason\\Documents\\GitHub\\explorer-wpf\\Pages\\ContinentInfo.xaml",
+              "ToolTip": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\Pages\\ContinentInfo.xaml",
               "RelativeToolTip": "Pages\\ContinentInfo.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-04T08:19:27.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T08:19:27.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContinentInfo.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\Pages\\ContinentInfo.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\ContinentInfo.xaml.cs",
+              "ToolTip": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\Pages\\ContinentInfo.xaml.cs",
+              "RelativeToolTip": "Pages\\ContinentInfo.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T08:06:05.245Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ContinentInfo.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\lpason\\Documents\\GitHub\\explorer-wpf\\Pages\\ContinentInfo.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\ContinentInfo.xaml.cs",
-              "ToolTip": "C:\\Users\\lpason\\Documents\\GitHub\\explorer-wpf\\Pages\\ContinentInfo.xaml.cs",
-              "RelativeToolTip": "Pages\\ContinentInfo.xaml.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAIAwwB0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T08:06:05.245Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Source.cs",
-              "DocumentMoniker": "C:\\Users\\lpason\\Documents\\GitHub\\explorer-wpf\\Classes\\Source.cs",
+              "DocumentMoniker": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\Classes\\Source.cs",
               "RelativeDocumentMoniker": "Classes\\Source.cs",
-              "ToolTip": "C:\\Users\\lpason\\Documents\\GitHub\\explorer-wpf\\Classes\\Source.cs",
+              "ToolTip": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\Classes\\Source.cs",
               "RelativeToolTip": "Classes\\Source.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -107,24 +117,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Continent.cs",
-              "DocumentMoniker": "C:\\Users\\lpason\\Documents\\GitHub\\explorer-wpf\\Classes\\Continent.cs",
+              "DocumentMoniker": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\Classes\\Continent.cs",
               "RelativeDocumentMoniker": "Classes\\Continent.cs",
-              "ToolTip": "C:\\Users\\lpason\\Documents\\GitHub\\explorer-wpf\\Classes\\Continent.cs",
+              "ToolTip": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\Classes\\Continent.cs",
               "RelativeToolTip": "Classes\\Continent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T07:35:14.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-28T07:35:14.517Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Sources.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\lpason\\Documents\\GitHub\\explorer-wpf\\Pages\\Sources.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\Pages\\Sources.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\Sources.xaml.cs",
-              "ToolTip": "C:\\Users\\lpason\\Documents\\GitHub\\explorer-wpf\\Pages\\Sources.xaml.cs",
+              "ToolTip": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\Pages\\Sources.xaml.cs",
               "RelativeToolTip": "Pages\\Sources.xaml.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAiwCYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -132,22 +141,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Sources.xaml",
-              "DocumentMoniker": "C:\\Users\\lpason\\Documents\\GitHub\\explorer-wpf\\Pages\\Sources.xaml",
+              "DocumentMoniker": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\Pages\\Sources.xaml",
               "RelativeDocumentMoniker": "Pages\\Sources.xaml",
-              "ToolTip": "C:\\Users\\lpason\\Documents\\GitHub\\explorer-wpf\\Pages\\Sources.xaml",
+              "ToolTip": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\Pages\\Sources.xaml",
               "RelativeToolTip": "Pages\\Sources.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-21T08:09:51.57Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\lpason\\Documents\\GitHub\\explorer-wpf\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\lpason\\Documents\\GitHub\\explorer-wpf\\App.xaml",
+              "ToolTip": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-21T07:30:08.689Z",
@@ -155,36 +164,34 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "Map.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\lpason\\Documents\\GitHub\\explorer-wpf\\Pages\\Map.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\Pages\\Map.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\Map.xaml.cs",
-              "ToolTip": "C:\\Users\\lpason\\Documents\\GitHub\\explorer-wpf\\Pages\\Map.xaml.cs",
+              "ToolTip": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\Pages\\Map.xaml.cs",
               "RelativeToolTip": "Pages\\Map.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAQwC4AAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T15:52:34.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Map.xaml",
-              "DocumentMoniker": "C:\\Users\\lpason\\Documents\\GitHub\\explorer-wpf\\Pages\\Map.xaml",
-              "RelativeDocumentMoniker": "Pages\\Map.xaml",
-              "ToolTip": "C:\\Users\\lpason\\Documents\\GitHub\\explorer-wpf\\Pages\\Map.xaml",
-              "RelativeToolTip": "Pages\\Map.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-21T07:29:29.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T15:52:34.205Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Map.xaml",
+              "DocumentMoniker": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\Pages\\Map.xaml",
+              "RelativeDocumentMoniker": "Pages\\Map.xaml",
+              "ToolTip": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\Pages\\Map.xaml",
+              "RelativeToolTip": "Pages\\Map.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-21T07:29:29.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\lpason\\Documents\\GitHub\\explorer-wpf\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\lpason\\Documents\\GitHub\\explorer-wpf\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-21T07:05:09.694Z",
@@ -192,11 +199,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "sources.json",
-              "DocumentMoniker": "C:\\Users\\lpason\\Documents\\GitHub\\explorer-wpf\\Assets\\sources.json",
+              "DocumentMoniker": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\Assets\\sources.json",
               "RelativeDocumentMoniker": "Assets\\sources.json",
-              "ToolTip": "C:\\Users\\lpason\\Documents\\GitHub\\explorer-wpf\\Assets\\sources.json",
+              "ToolTip": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\Assets\\sources.json",
               "RelativeToolTip": "Assets\\sources.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -204,13 +211,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\lpason\\Documents\\GitHub\\explorer-wpf\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\lpason\\Documents\\GitHub\\explorer-wpf\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\morel\\Documents\\GitHub\\explorer-wpf\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAwBQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-21T07:05:09.174Z"
             }

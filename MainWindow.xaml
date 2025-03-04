@@ -10,7 +10,9 @@
     Background="White"
     FontFamily="Comfortaa"
     ShowsNavigationUI="False"
+    WindowHeight="1080"
     WindowTitle="Menu"
+    WindowWidth="1920"
     mc:Ignorable="d">
 
     <Page.Resources>
@@ -60,7 +62,7 @@
             VerticalContentAlignment="Center"
             Content="O D K R Y W C A"
             FontFamily="Comfortaa"
-            FontSize="75"
+            FontSize="100"
             FontWeight="Bold">
             <Label.Effect>
                 <DropShadowEffect />
@@ -76,8 +78,8 @@
         <Border
             Grid.Row="2"
             Grid.Column="2"
-            Width="200"
-            Height="70"
+            MaxWidth="300"
+            MaxHeight="105"
             Padding="4"
             BorderBrush="White"
             BorderThickness="2"
@@ -89,7 +91,7 @@
                 x:Name="mapBtn"
                 Background="Transparent"
                 BorderThickness="0"
-                FontSize="30"
+                FontSize="40"
                 FontWeight="Bold">
                 <Hyperlink NavigateUri="/Pages/Map.xaml">Mapa</Hyperlink>
             </Button>
@@ -98,8 +100,8 @@
         <Border
             Grid.Row="3"
             Grid.Column="2"
-            Width="200"
-            Height="70"
+            MaxWidth="300"
+            MaxHeight="105"
             Padding="4"
             BorderBrush="White"
             BorderThickness="2"
@@ -111,7 +113,7 @@
                 x:Name="sourceBtn"
                 Background="Transparent"
                 BorderThickness="0"
-                FontSize="30"
+                FontSize="40"
                 FontWeight="Bold">
                 <Hyperlink NavigateUri="/Pages/Sources.xaml">Źródła</Hyperlink>
             </Button>
@@ -120,8 +122,8 @@
         <Border
             Grid.Row="4"
             Grid.Column="2"
-            Width="200"
-            Height="70"
+            MaxWidth="300"
+            MaxHeight="105"
             Padding="4"
             BorderBrush="White"
             BorderThickness="2"
@@ -136,7 +138,7 @@
                 Click="closeBtn_Click"
                 Content="Wyjdź"
                 Cursor="Hand"
-                FontSize="30"
+                FontSize="40"
                 FontWeight="Bold" />
         </Border>
     </Grid>

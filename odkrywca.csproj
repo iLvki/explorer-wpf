@@ -11,27 +11,53 @@
   <ItemGroup>
     <None Remove="Assets\background.png" />
     <None Remove="Assets\continents.png" />
+    <None Remove="Assets\continents.svg" />
+    <None Remove="Assets\Continents\africa\afryka.jpg" />
+    <None Remove="Assets\Continents\africa\afryka.webp" />
     <None Remove="Assets\Continents\africa\data.json" />
+    <None Remove="Assets\Continents\africa\Rema_Charm.wav" />
     <None Remove="Assets\Continents\antarctica\data.json" />
     <None Remove="Assets\Continents\asia\data.json" />
     <None Remove="Assets\Continents\australia\data.json" />
     <None Remove="Assets\Continents\europe\data.json" />
     <None Remove="Assets\Continents\north_america\data.json" />
     <None Remove="Assets\Continents\south_america\data.json" />
+    <None Remove="Assets\Hovers\africa-h.png" />
+    <None Remove="Assets\Hovers\antarctica-h.png" />
+    <None Remove="Assets\Hovers\asia-h.png" />
+    <None Remove="Assets\Hovers\australia-h.png" />
+    <None Remove="Assets\Hovers\europe-h.png" />
+    <None Remove="Assets\Hovers\north_america-h.png" />
+    <None Remove="Assets\Hovers\south_america-h.png" />
     <None Remove="Assets\sources.json" />
     <None Remove="background.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="SvgToXamlConverter" Version="11.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="Assets\background.png" />
     <Resource Include="Assets\continents.png" />
+    <Resource Include="Assets\continents.svg" />
+    <Resource Include="Assets\Continents\africa\afryka.jpg" />
+    <Resource Include="Assets\Continents\africa\afryka.webp" />
     <Resource Include="Assets\Continents\africa\data.json" />
+    <Resource Include="Assets\Continents\africa\Rema_Charm.wav" />
     <Resource Include="Assets\Continents\antarctica\data.json" />
     <Resource Include="Assets\Continents\asia\data.json" />
     <Resource Include="Assets\Continents\australia\data.json" />
     <Resource Include="Assets\Continents\europe\data.json" />
     <Resource Include="Assets\Continents\north_america\data.json" />
     <Resource Include="Assets\Continents\south_america\data.json" />
+    <Resource Include="Assets\Hovers\africa-h.png" />
+    <Resource Include="Assets\Hovers\antarctica-h.png" />
+    <Resource Include="Assets\Hovers\asia-h.png" />
+    <Resource Include="Assets\Hovers\australia-h.png" />
+    <Resource Include="Assets\Hovers\europe-h.png" />
+    <Resource Include="Assets\Hovers\north_america-h.png" />
+    <Resource Include="Assets\Hovers\south_america-h.png" />
     <Resource Include="Assets\sources.json" />
     <Resource Include="background.png" />
   </ItemGroup>

@@ -69,12 +69,15 @@
                 <DropShadowEffect />
             </Border.Effect>
             <StackPanel Orientation="Vertical">
+                <StackPanel.Effect>
+                    <DropShadowEffect />
+                </StackPanel.Effect>
                 <Label
                     HorizontalAlignment="Center"
-                    BorderBrush="White"
                     Content="Kontynenty"
                     FontSize="30"
-                    FontWeight="Bold" />
+                    FontWeight="Bold"
+                    Foreground="Coral" />
                 <Label>
                     <Hyperlink
                         x:Name="africa"
@@ -154,7 +157,7 @@
             Grid.Column="1"
             Grid.ColumnSpan="5"
             Margin="20"
-            Padding="5,30"
+            Padding="0,50"
             CornerRadius="5">
             <Canvas x:Name="map">
                 <Canvas.Background>

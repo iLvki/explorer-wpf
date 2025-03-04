@@ -5,11 +5,11 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="clr-namespace:odkrywca.Pages"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    Title="ContinentInfo"
     d:DesignHeight="450"
     d:DesignWidth="800"
     Background="White"
     FontFamily="Comfortaa"
+    WindowTitle=""
     mc:Ignorable="d">
 
     <Grid>
@@ -31,7 +31,7 @@
         <Label
             Grid.Row="0"
             Grid.Column="0"
-            Padding="12,20"
+            Padding="20,40"
             HorizontalContentAlignment="Left"
             VerticalContentAlignment="Top"
             FontSize="20"
@@ -43,17 +43,53 @@
         <Label
             x:Name="title"
             Grid.Row="0"
-            Grid.Column="2"
+            Grid.Column="1"
+            Grid.ColumnSpan="3"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            Content=""
-            FontSize="24" />
+            FontSize="36"
+            FontWeight="UltraBold" />
 
         <TextBlock
             x:Name="info"
             Grid.Row="1"
             Grid.RowSpan="3"
             Grid.Column="3"
-            Grid.ColumnSpan="2" />
+            Grid.ColumnSpan="2"
+            Padding="20,0,20,0"
+            FontSize="26"
+            TextAlignment="Justify"
+            TextWrapping="Wrap" />
+
+        <Label
+            x:Name="musicInfo"
+            Grid.Row="3"
+            Grid.ColumnSpan="2"
+            Margin="25,0,0,0"
+            VerticalContentAlignment="Bottom"
+            FontSize="18" />
+
+        <Label
+            x:Name="continentImg"
+            Grid.Row="1"
+            Grid.RowSpan="2"
+            Grid.ColumnSpan="2"
+            Margin="25,0,0,0" />
+
+        <Button
+            Grid.Row="4"
+            Grid.Column="3"
+            Content="&lt;&lt; Poprzednia strona"
+            Cursor="Hand"
+            FontSize="22"
+            Foreground="Black" />
+
+        <Button
+            Grid.Row="4"
+            Grid.Column="4"
+            Content="Następna strona &gt;&gt;"
+            Cursor="Hand"
+            FontSize="22"
+            Foreground="Black" />
     </Grid>
 </Page>
