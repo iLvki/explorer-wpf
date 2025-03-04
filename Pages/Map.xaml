@@ -78,56 +78,70 @@
                 <Label>
                     <Hyperlink
                         x:Name="africa"
+                        Click="GoToSite"
                         MouseEnter="changeImage"
-                        MouseLeave="BackToBaseImg">
+                        MouseLeave="BackToBaseImg"
+                        Tag="africa">
                         Afryka
                     </Hyperlink>
                 </Label>
                 <Label>
                     <Hyperlink
                         x:Name="south_america"
+                        Click="GoToSite"
                         MouseEnter="changeImage"
-                        MouseLeave="BackToBaseImg">
+                        MouseLeave="BackToBaseImg"
+                        Tag="south_america">
                         Ameryka Płd.
                     </Hyperlink>
                 </Label>
                 <Label>
                     <Hyperlink
                         x:Name="north_america"
+                        Click="GoToSite"
                         MouseEnter="changeImage"
-                        MouseLeave="BackToBaseImg">
+                        MouseLeave="BackToBaseImg"
+                        Tag="north_america">
                         Ameryka Płn.
                     </Hyperlink>
                 </Label>
                 <Label>
                     <Hyperlink
                         x:Name="antarctica"
+                        Click="GoToSite"
                         MouseEnter="changeImage"
-                        MouseLeave="BackToBaseImg">
+                        MouseLeave="BackToBaseImg"
+                        Tag="antarctica">
                         Antarktyda
                     </Hyperlink>
                 </Label>
                 <Label>
                     <Hyperlink
                         x:Name="australia"
+                        Click="GoToSite"
                         MouseEnter="changeImage"
-                        MouseLeave="BackToBaseImg">
+                        MouseLeave="BackToBaseImg"
+                        Tag="australia">
                         Australia
                     </Hyperlink>
                 </Label>
                 <Label>
                     <Hyperlink
                         x:Name="asia"
+                        Click="GoToSite"
                         MouseEnter="changeImage"
-                        MouseLeave="BackToBaseImg">
+                        MouseLeave="BackToBaseImg"
+                        Tag="asia">
                         Azja
                     </Hyperlink>
                 </Label>
                 <Label>
                     <Hyperlink
                         x:Name="europe"
+                        Click="GoToSite"
                         MouseEnter="changeImage"
-                        MouseLeave="BackToBaseImg">
+                        MouseLeave="BackToBaseImg"
+                        Tag="europe">
                         Europa
                     </Hyperlink>
                 </Label>

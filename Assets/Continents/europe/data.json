@@ -1,7 +1,5 @@
-[
-  {
-    "name": "Europe",
-    "info": "testowa informacja",
-    "imageSource":  ""
-  }
-]
+{
+  "name": "Europa",
+  "info": "testowa informacja",
+  "imageSource":  ""
+}

@@ -35,5 +35,17 @@ namespace odkrywca.Pages
                 ImageSource = new BitmapImage(new Uri($"Assets/continents.png", UriKind.Relative))
             };
         }
+
+        private void GoToSite(object sender, EventArgs e)
+        {
+            Hyperlink h = (Hyperlink)sender;
+            string continent = h?.Tag as string;
+
+            if( continent != null)
+            {
+                ContinentInfo cInfoPage = new ContinentInfo(continent);
+                this.NavigationService.Navigate(cInfoPage);
+            }
+        }
     }
 }

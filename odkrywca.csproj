@@ -11,7 +11,13 @@
   <ItemGroup>
     <None Remove="Assets\background.png" />
     <None Remove="Assets\continents.png" />
+    <None Remove="Assets\Continents\africa\data.json" />
+    <None Remove="Assets\Continents\antarctica\data.json" />
+    <None Remove="Assets\Continents\asia\data.json" />
+    <None Remove="Assets\Continents\australia\data.json" />
     <None Remove="Assets\Continents\europe\data.json" />
+    <None Remove="Assets\Continents\north_america\data.json" />
+    <None Remove="Assets\Continents\south_america\data.json" />
     <None Remove="Assets\sources.json" />
     <None Remove="background.png" />
   </ItemGroup>
@@ -19,7 +25,13 @@
   <ItemGroup>
     <Resource Include="Assets\background.png" />
     <Resource Include="Assets\continents.png" />
+    <Resource Include="Assets\Continents\africa\data.json" />
+    <Resource Include="Assets\Continents\antarctica\data.json" />
+    <Resource Include="Assets\Continents\asia\data.json" />
+    <Resource Include="Assets\Continents\australia\data.json" />
     <Resource Include="Assets\Continents\europe\data.json" />
+    <Resource Include="Assets\Continents\north_america\data.json" />
+    <Resource Include="Assets\Continents\south_america\data.json" />
     <Resource Include="Assets\sources.json" />
     <Resource Include="background.png" />
   </ItemGroup>

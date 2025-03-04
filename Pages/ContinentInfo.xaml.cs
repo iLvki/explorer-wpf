@@ -12,25 +12,31 @@ namespace odkrywca.Pages
     /// </summary>
     public partial class ContinentInfo : Page
     {
-        public ContinentInfo()
+        public ContinentInfo(string c)
         {
             InitializeComponent();
+            continentName = c;
+            ReadInfo();
         }
+     
+        public string continentName { get; set; }
 
-        public void ReadSources()
+        public void ReadInfo()
         {
             info.Text = string.Empty;
-            List<Continent> informations = new List<Continent>();
+            Continent informations = new Continent();
 
-            var uri = new Uri("pack://application:,,,/Assets/Continents/europe/data.json");
+            var uri = new Uri($"pack://application:,,,/Assets/Continents/{continentName}/data.json");
             StreamResourceInfo resourceInfo = Application.GetResourceStream(uri);
             using (StreamReader reader = new StreamReader(resourceInfo.Stream))
             {
                 string json = reader.ReadToEnd();
-                informations = JsonSerializer.Deserialize<List<Continent>>(json);
+                informations = JsonSerializer.Deserialize<Continent>(json);
             }
 
-            
+            title.Content = informations.name;
+
+            info.Text = informations.info;
         }
     }
 }
