@@ -1,23 +1,23 @@
 {
   "name": "Afryka",
-  "info": "Afryka jest drugim pod względem powierzchni kontynentem. Jej obszar to ponad 30 mln km2. Leży na wszystkich półkulach. Afryka ma najwięcej państw ze wszystkich kontynentów - 54. W Etiopii został znaleziony najstarszy znany ludzki szkielet.",
+  "info": "Afryka jest drugim pod względem powierzchni kontynentem. Jej obszar to ponad 30 mln km2. Leży na wszystkich półkulach. Afryka ma najwięcej państw ze wszystkich kontynentów - 54. W Etiopii został znaleziony najstarszy znany ludzki szkielet. Afryka należy do Państw słabo rozwiniętych",
   "imageSource": "afryka.jpg",
   "imageInfo":  "Sawanna z widokiem na Kilimandżaro",
   "music": "Rema_Charm",
   "questions": [
     {
-      "q": "Ile Państw posiada Afryka?",
-      "a": [
-        { "an": 60 },
-        { "an": 38 },
-        { "an": 73 },
-        { "an": 54 }
+      "question": "Ile Państw posiada Afryka?",
+      "answers": [
+        { "an": "60" },
+        { "an": "38" },
+        { "an": "73" },
+        { "an": "54" }
       ],
-      "correctAns":  3
+      "correctAns": 3
     },
     {
-      "q": "Gdzie został znaleziony najstarszy znany ludzki szkielet?",
-      "a": [
+      "question": "Gdzie został znaleziony najstarszy znany ludzki szkielet?",
+      "answers": [
         { "an": "W Utopii" },
         { "an": "W Algierii" },
         { "an": "W Etiopii" },

@@ -1,5 +1,29 @@
 {
   "name": "Europa",
-  "info": "Europa ma powierzchnię około 10,5 mln km2 i leży wraz Azją na półkuli północnej i wschodniej, ale jej zachodnie krańce sięgają półkuli zachodniej.",
-  "imageSource": ""
+  "info": "Europa ma powierzchnię około 10,5 mln km2 i leży wraz Azją na półkuli północnej i wschodniej, ale jej zachodnie krańce sięgają półkuli zachodniej. Jest także kontynentem z jednym z najmniejszych państw na świecie – Watykanem, który ma powierzchnię zaledwie 44 hektary.",
+  "imageSource": "europa.jpg",
+  "imageInfo":  "Sagrada Familia, Barcelona",
+  "music": "Grieg_Peer Gynt Suite No. 1, Op. 46 I. Morning Mood",
+  "questions": [
+    {
+      "question": "Jakie jest najmniejsze państwo w Europie",
+      "answers": [
+        { "an": "Boscy" },
+        { "an": "Watykan" },
+        { "an": "Wiśniewscy" },
+        { "an": "Australia" }
+      ],
+      "correctAns": 1
+    },
+    {
+      "question": "Wskaż stolicę Norwegii",
+      "answers": [
+        { "an": "Alaska" },
+        { "an": "Rio de Janeiro" },
+        { "an": "Nairobi" },
+        { "an": "Oslo" }
+      ],
+      "correctAns": 3
+    }
+  ]
 }

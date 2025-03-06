@@ -1,5 +1,29 @@
 {
   "name": "Ameryka północna",
-  "info": "Ameryka Północna ma powierzchnię ponad 24 mln km2 i położona jest w całości na półkulach północnej i zachodniej.",
-  "imageSource": ""
+  "info": "Ameryka Północna ma powierzchnię ponad 24 mln km² i położona jest w całości na półkulach północnej i zachodniej. W Ameryce Północnej znajduje się jedno z największych państw na świecie – Kanada, której powierzchnia to aż 9,98 miliona km². Jest to także kontynent z najdłuższą linią brzegową na świecie.",
+  "imageSource": "ameryka_polnocna.jpg",
+  "imageInfo":  "Niagara Falls, By Saffron Blaze - Own work",
+  "music": "bbno_two",
+  "questions": [
+    {
+      "question": "Jakie największe państwo znajduje się w Ameryce Północnej?",
+      "answers": [
+        { "an": "Korea Północna" },
+        { "an": "Kamada" },
+        { "an": "Kanada" },
+        { "an": "Kilimandżaro" }
+      ],
+      "correctAns": 2
+    },
+    {
+      "question": "Co jest najdłuższą rzeczą na tym kontynencie?",
+      "answers": [
+        { "an": "Linia brzegowa" },
+        { "an": "Czas pobierania Roblox" },
+        { "an": "Stopa" },
+        { "an": "Kierownica" }
+      ],
+      "correctAns": 0
+    }
+  ]
 }

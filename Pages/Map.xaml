@@ -176,7 +176,7 @@
             Grid.Column="1"
             Grid.ColumnSpan="5"
             Margin="20"
-            Padding="0,50">
+            Padding="0,30">
             <Canvas x:Name="map">
                 <Canvas.Background>
                     <ImageBrush ImageSource="/Assets/continents.png" />

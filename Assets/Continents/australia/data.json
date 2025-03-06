@@ -1,5 +1,29 @@
 {
   "name": "Australia",
-  "info": "Australia jest najmniejszym kontynentem o powierzchni zaledwie 7,5 mln km2 bez przybrzeżnych wysp (z całą Oceanią – 8,5 mln km2). Leży na półkuli południowej i wschodniej. Jest w całości zajęta przez jeden kraj noszący tę samą nazwę.",
-  "imageSource": ""
+  "info": "Australia jest najmniejszym kontynentem o powierzchni zaledwie 7,5 mln km2 bez przybrzeżnych wysp (z całą Oceanią – 8,5 mln km2). Leży na półkuli południowej i wschodniej. Jest w całości zajęta przez jeden kraj noszący tę samą nazwę. Znajdują się tam kangury, koale oraz inne endemiczne gatunki. Oceania to także kontynent, który obejmuje 14 krajów, w tym m.in. Australię, Nową Zelandię i Papua-Nową Gwineę.",
+  "imageSource": "australia.jpg",
+  "imageInfo":  "The wave - kamienna fala utworzona przez wiatr i deszcz",
+  "music": "Traditional Didgeridoo Rhythms_Lewis Burns",
+  "questions": [
+    {
+      "question": "Ile krajów znajduje się w Oceanii?",
+      "answers": [
+        { "an": "1.4" },
+        { "an": "14" },
+        { "an": "16" },
+        { "an": "1.8" }
+      ],
+      "correctAns": 1
+    },
+    {
+      "question": "Które zwierzęta są symbolami Australii?",
+      "answers": [
+        { "an": "Pająki i węże" },
+        { "an": "Koty i psy" },
+        { "an": "Kangury i koale" },
+        { "an": "Owce i barany" }
+      ],
+      "correctAns": 2
+    }
+  ]
 }

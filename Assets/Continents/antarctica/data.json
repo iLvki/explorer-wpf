@@ -1,5 +1,29 @@
 {
   "name": "Antarktyda",
-  "info": "Antarktyda ma powierzchnię zaledwie 13 mln km2 i leży wokół bieguna południowego. To jedyny duży ląd na świecie, na terenie którego nie ma żadnego państwa i który do żadnego państwa nie należy.",
-  "imageSource": ""
+  "info": "Antarktyda ma powierzchnię zaledwie 13 mln km2 i leży wokół bieguna południowego. To jedyny duży ląd na świecie, na terenie którego nie ma żadnego państwa i który do żadnego państwa nie należy. Jest także kontynentem o najniższych temperaturach na świecie – w rejonie Wostok zanotowano temperaturę -89,2°C",
+  "imageSource": "antarktyda.jpg",
+  "imageInfo":  "Pingwinki :D",
+  "music": "Vangelis _Antarctica",
+  "questions": [
+    {
+      "question": "Wokół jakiego bieguna leży Antarktyda?",
+      "answers": [
+        { "an": "Południowego" },
+        { "an": "Północnego" },
+        { "an": "Przedniego" },
+        { "an": "Prawego" }
+      ],
+      "correctAns": 0
+    },
+    {
+      "question": "Do jakiego państwa należy Antarktyda?",
+      "answers": [
+        { "an": "Kowalskich" },
+        { "an": "Żadnego" },
+        { "an": "Egiptu" },
+        { "an": "Baronów" }
+      ],
+      "correctAns": 1
+    }
+  ]
 }

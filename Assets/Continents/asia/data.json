@@ -1,5 +1,29 @@
 {
   "name": "Azja",
-  "info": "Azja to największy kontynent o powierzchni około 44,6 mln km2. Leży prawie w całości na półkuli północnej i wschodniej. Wielu badaczy uważa, że wraz z Europą stanowi jeden kontynent nazywany Eurazją (o powierzchni ponad 55 mln km2).",
-  "imageSource": ""
+  "info": "Azja to największy kontynent o powierzchni około 44,6 mln km2. Leży prawie w całości na półkuli północnej i wschodniej. Wielu badaczy uważa, że wraz z Europą stanowi jeden kontynent nazywany Eurazją (o powierzchni ponad 55 mln km2). Na tym kontynencie znajduje się najwyższy szczyt świata - Mount Everest (8848m n.p.m.). Chiny to najliczniejszy kraj pod względem ludności w całej Azji.",
+  "imageSource": "azja.jpg",
+  "imageInfo":  "Angkor Wat, Siem Reap, Kambodża",
+  "music": "KATSEYE (캣츠아이)_Touch",
+  "questions": [
+    {
+      "question": "Który kraj w Azji ma najwięcej ludności?",
+      "answers": [
+        { "an": "Chiny" },
+        { "an": "Japonia" },
+        { "an": "Korea Północna" },
+        { "an": "Wietnam" }
+      ],
+      "correctAns": 0
+    },
+    {
+      "question": "Jak się nazywa najwyższy szczyt w Azji?",
+      "answers": [
+        { "an": "Makalu" },
+        { "an": "Czo Oju" },
+        { "an": "Kanczendzonga" },
+        { "an": "Mount Everest" }
+      ],
+      "correctAns": 3
+    }
+  ]
 }

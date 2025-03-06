@@ -1,5 +1,29 @@
 {
   "name": "Ameryka południowa",
-  "info": "Ameryka Południowa ma nieco mniej niż 18 mln km2, a leży po obu stronach równika, ale tylko na półkuli zachodniej. Niektórzy badacze uważają obie Ameryki za jeden kontynent.",
-  "imageSource": ""
+  "info": "Ameryka Południowa ma nieco mniej niż 18 mln km², a leży po obu stronach równika, ale tylko na półkuli zachodniej. Niektórzy badacze uważają obie Ameryki za jeden kontynent. Ameryka Południowa jest domem dla największego lasu deszczowego na świecie – Amazonii, która pokrywa około 40% kontynentu. Jest także miejscem, gdzie znajduje się najwyższy szczyt w obu Amerykach – Aconcagua w Andach (6962 m n.p.m.).",
+  "imageSource": "ameryka_poludniowa.jpg",
+  "imageInfo":  "Machu Picchu, Peru",
+  "music": "Cartola_Preciso Me Encontrar",
+  "questions": [
+    {
+      "question": "Jak nazywa się największy las deszczowy na świecie?",
+      "answers": [
+        { "an": "Puszcza Białowieska" },
+        { "an": "Amazon" },
+        { "an": "Amazonia" },
+        { "an": "Kilimandżaro" }
+      ],
+      "correctAns": 2
+    },
+    {
+      "question": "Czy obie Ameryki to jeden kontynent?",
+      "answers": [
+        { "an": "Bóg jest odpowiedzią na wszystko" },
+        { "an": "Nie" },
+        { "an": "Sprzedam opla" },
+        { "an": "Tak" }
+      ],
+      "correctAns": 0
+    }
+  ]
 }

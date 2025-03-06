@@ -7,5 +7,6 @@
         public string imageSource { get; set; }
         public string imageInfo { get; set; }
         public string music { get; set; }
+        public List<QuizC> questions { get; set; }
     }
 }

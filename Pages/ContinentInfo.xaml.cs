@@ -41,7 +41,7 @@ namespace odkrywca.Pages
             title.Content = informations.name;
             imgInfo.Content = informations.imageInfo;
             info.Text = informations.info;
-            uri = new Uri($"pack://application:,,,/Assets/Continents/{continentName}/{informations.name.ToLower()}.jpg", UriKind.Absolute);
+            uri = new Uri($"pack://application:,,,/Assets/Continents/{continentName}/{informations.imageSource}", UriKind.Absolute);
             continentImg.Background = new ImageBrush
             {
                 ImageSource = new BitmapImage(uri)

@@ -34,7 +34,7 @@ namespace odkrywca.Pages
 
             foreach (Source s in sources)
             {
-                res.Text += $" > {s.title}: {s.link}";
+                res.Text += $" > {s.title}: {s.link} \n\n\n";
             }
         }
     }

@@ -58,9 +58,9 @@
             Grid.ColumnSpan="6"
             Margin="10"
             Padding="10"
+            HorizontalAlignment="Center"
             FontSize="26"
-            Text=""
-            TextAlignment="Center" />
+            TextAlignment="Justify" />
 
     </Grid>
 </Page>

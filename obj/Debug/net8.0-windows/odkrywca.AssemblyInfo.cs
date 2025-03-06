@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("odkrywca")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2078ca38c4101a9d7624fc194de4039f48848aab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31c236393e1fca070f6d6edb41ec69194fa6c6f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("odkrywca")]
 [assembly: System.Reflection.AssemblyTitleAttribute("odkrywca")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
