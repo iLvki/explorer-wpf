@@ -41,7 +41,7 @@ namespace odkrywca.Pages
             Hyperlink h = (Hyperlink)sender;
             string continent = h?.Tag as string;
 
-            if( continent != null)
+            if(continent != null)
             {
                 ContinentInfo cInfoPage = new ContinentInfo(continent);
                 this.NavigationService.Navigate(cInfoPage);

@@ -65,5 +65,14 @@ namespace odkrywca.Pages
         {
             mp.Stop();
         }
+
+        private void GoToSite(object sender, RoutedEventArgs e)
+        {
+            if (continentName != null)
+            {
+                Quiz quizPage = new Quiz(continentName);
+                this.NavigationService.Navigate(quizPage);
+            }
+        }
     }
 }

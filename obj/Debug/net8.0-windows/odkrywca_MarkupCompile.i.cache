@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\morel\Documents\GitHub\explorer-wpf\obj\Debug\net8.0-windows\
+C:\Users\lpason\Documents\GitHub\explorer-wpf\obj\Debug\net8.0-windows\
 odkrywca
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\morel\Documents\GitHub\explorer-wpf\App.xaml
-41339121516
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+C:\Users\lpason\Documents\GitHub\explorer-wpf\App.xaml
+52046227576
 
-111824712693
-2081763590825
-MainWindow.xaml;Pages\ContinentInfo.xaml;Pages\Map.xaml;Pages\Sources.xaml;
+13-2070568775
+208-2007784575
+MainWindow.xaml;Pages\ContinentInfo.xaml;Pages\Map.xaml;Pages\Quiz.xaml;Pages\Sources.xaml;
 
-False
+True
 

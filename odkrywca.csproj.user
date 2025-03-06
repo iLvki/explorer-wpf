@@ -13,6 +13,9 @@
     <Compile Update="Pages\Map.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Pages\Quiz.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Pages\Sources.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -25,6 +28,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Pages\Map.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Quiz.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Pages\Sources.xaml">
